@@ -1,0 +1,17 @@
+.button{
+    .checkIcon{
+        display: none;
+        &:hover{
+            background-color: rgb(66, 66, 66);
+            border-radius: 5px;
+        }
+    }
+    &:hover{
+        background-color: rgb(175, 175, 175);
+
+        .checkIcon{
+            color: rgb(15, 241, 15);
+            display: inline-block;
+        }
+    }
+}
